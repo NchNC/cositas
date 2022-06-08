@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="#">
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <section class="menu-juego">
+
+                <!--   BOTON DE INICIAR JUEGO  -->
+                <button class="boton-menu" id="iniciarJuego" id ="iniciarJuego" onclick="activarJuego()">
+                    Iniciar Juego
+                </button>
+                <!--   BOTON DE AGREGAR PALABRA  -->
+                <button class="boton-menu" id="agregarPalabra" onclick="accionAgregarPalabra()">
+                    Agregar Palabra
+                </button>
+                <!--   INPUT DE PALABRA AGREGADA  -->
+                <input placeholder="Ingrese una palabra" id="inputPalabra">
+            </section>
+
+
+                    <!-- Imagen del ahorcado que ira cambiando segun el estado -->
+            <section class="dibujo-ahorcado">
+                <img src="" width="100%" height="auto" alt="" id="imagenAhorcado">
+
+            </section>
+
+            <section class="palabra-secreta">
+                    <!-- aqui se agregaran las divs con las letras a adivinar con JS-->
+
+
+            </section>
+
+            <section class="letras-usadas">
+                    <!-- aqui agregare las divs con las letras con JS-->
+            </section>
+
+           
+            <section class="interacciones"> 
+                <!--   INPUT DE LETRA  -->
+                <textarea name="textarea" class="entrada-input"  rows="1" cols="1" maxlength="1" placeholder="-"></textarea>
+                <!--   BOTON DE INGRESAR LETRA  -->
+                <button type="button" class="entrada-boton"  onclick="ingresarLetraJuego()" >Ingrese letra a adivinar</button>
+            </section>
+
+            
+        </main>
+    </body>
+    <script src="script.js"></script> 
+</html>
