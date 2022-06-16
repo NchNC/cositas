@@ -1,5 +1,5 @@
 //          VARIABLES PRINCIPALES
-var palabrasEscondidas = [ /*"HOLA" , "CHAU" , "LOVE" , "ROKITO" , "ALURA" , "GRIDS" , "ORACLE" , "NACHO"*/ "MIGUEL" , "MATAYUYO" , "BLACK" ];
+var palabrasEscondidas = [ "HOLA" , "CHAU" , "LOVE" , "ROKITO" , "ALURA" , "GRIDS" , "ORACLE" , "NACHO" ,"MIGUEL" , "MATAYUYO" , "BLACK" ];
 var letters = /^[A-Z]+$/;
 
 
